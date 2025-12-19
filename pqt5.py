@@ -22,11 +22,11 @@ class MyWindow(QWidget):
             layout.addWidget(i)
 
         self.input_field = QLineEdit(self)
-        self.input_field.setPlaceholderText("ВведитеРезультат")
+        self.input_field.setPlaceholderText("Введите")
         layout.addWidget(self.input_field)
 
         self.input_field1 = QLineEdit(self)
-        self.input_field1.setPlaceholderText("ВведитеРезультат")
+        self.input_field1.setPlaceholderText("Введите")
         layout.addWidget(self.input_field1)
 
         self.btn_plus = QPushButton("Плюс", self)
